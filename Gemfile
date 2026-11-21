@@ -4,6 +4,10 @@ source "https://rubygems.org/"
 
 gemspec
 
+gem "nokogiri",
+    git: "https://github.com/mpokrywka/nokogiri.git",
+    branch: "ruby-3.1-v1.19.6"
+
 group :development do
   gem("hoe-markdown", ["~> 1.5", ">= 1.5.1"])
   gem("json", ["~> 2.2"])
